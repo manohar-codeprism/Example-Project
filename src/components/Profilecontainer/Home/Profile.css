@@ -1,0 +1,84 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url('../../../assets/Home/manu.jpg');
+}
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-details-name {
+    font-size: 24px;
+    font-family: "Popins-semiBold";
+}
+.profile-details-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-role h1 {
+    font-size: 40px;
+    font-family: cursive;
+    margin: 20px;
+}
+.primary-text {
+    color: white;
+}
+.primary-button {
+    font-size: 20px;
+}
+.highlighted-text {
+    color: darkorange;
+}
+.profile-role-tagline {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.profile-options .highlighted-button {
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-button:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px 0px white;
+    border-radius: 200px;
+    height: 360px;
+    width: 360px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background {
+    height: 90%;
+    width: 90%;
+    background-image: url("../../../assets/Home/manu3.jpg");
+    background-size: cover;
+    border-radius: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-picture-background:hover {
+transform: scale(1.07);
+transition: 1s ease-out;
+}
+.highlighted-button {
+    color: white;
+    font-size: 20px;
+    background-color: #ff5823;
+  }
+  
+  @media only screen and (max-width: 568px) {
+    .highlighted-button {
+        z-index: -900;
+    }
+  }
